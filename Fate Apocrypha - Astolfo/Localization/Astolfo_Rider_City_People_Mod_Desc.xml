@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Astolfo_Rider_City_People_Mod_Desc -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/17/2018 2:25:23 AM -->
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_NAME" Language="en_US">
+			<Text>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_AUTHOR" Language="en_US">
+			<Text>Randerion</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_THANKS" Language="en_US">
+			<Text>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_TEASER" Language="en_US">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_ASTOLFO_RIDER_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_DESCRIPTION" Language="en_US">
+			<Text>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</Text>
+		</Row>
+
+	</LocalizedText>
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_CULTURE]Fate/Apocrypha 阿斯托尔福-骑阶[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_AUTHOR" Language="zh_Hans_CN">
+			<Text>兰德里奥（Randerion）</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_THANKS" Language="zh_Hans_CN">
+			<Text>特别感谢：墨尘留白Alter（中国）以及所有玩家，模组制作者以及型月。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_TEASER" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_ASTOLFO_RIDER_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支持语言：英语，简体中文，繁体中文。[NEWLINE][NEWLINE]提示：这个角色来自于 TYPE-MOON 旗下的 Fate/Apocrypha, 和历史上的阿斯托尔福没有任何联系。[NEWLINE][NEWLINE]如果你发现了任何Bug，请及时告知于我，我会修复它，感谢！</Text>
+		</Row>
+
+	</LocalizedText>
+	<LocalizedText>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_NAME" Language="zh_Hant_HK">
+			<Text>[COLOR_FLOAT_CULTURE]Fate/Apocrypha 阿斯托爾福-騎階[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_AUTHOR" Language="zh_Hant_HK">
+			<Text>蘭德里奧（Randerion）</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_THANKS" Language="zh_Hant_HK">
+			<Text>特別感謝：墨尘留白Alter（中國）以及所有玩家，模組製作者以及型月。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_TEASER" Language="zh_Hant_HK">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_ASTOLFO_RIDER_QUOTE}</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>支持語言：英語，簡體中文，繁體中文。[NEWLINE][NEWLINE]提示：這個角色來自於 TYPE-MOON 旗下的 Fate/Apocrypha, 和歷史上的阿斯托爾福沒有任何聯系。[NEWLINE][NEWLINE]如果妳發現了任何Bug，請及時告知於我，我會修復它，感謝！</Text>
+		</Row>
+
+	</LocalizedText>
+	
+	
+	<!--
+	
+	
+	  <LocalizedText>
+		<Text id="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_NAME">
+			<en_US>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</en_US>
+            <de_DE>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</de_DE>
+            <es_ES>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</es_ES>
+            <fr_FR>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</fr_FR>
+            <it_IT>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</it_IT>
+            <ja_JP>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</ja_JP>
+            <ko_KR>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</ko_KR>
+            <pl_PL>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</pl_PL>
+            <pt_BR>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</pt_BR>
+            <ru_RU>[COLOR_FLOAT_CULTURE]Fate/Apocrypha Astolfo-Rider[ENDCOLOR]</ru_RU>
+			<zh_Hans_CN>[COLOR_FLOAT_CULTURE]Fate/Apocrypha 阿斯托尔福-骑阶[ENDCOLOR]</zh_Hans_CN>
+			<zh_Hant_HK>[COLOR_FLOAT_CULTURE]Fate/Apocrypha 阿斯托爾福-騎階[ENDCOLOR]</zh_Hant_HK>
+		</Text>
+		
+		
+		
+		<Text id="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_AUTHOR">
+			<en_US>Randerion</en_US>
+            <de_DE>Randerion</de_DE>
+            <es_ES>Randerion</es_ES>
+            <fr_FR>Randerion</fr_FR>
+            <it_IT>Randerion</it_IT>
+            <ja_JP>Randerion</ja_JP>
+            <ko_KR>Randerion</ko_KR>
+            <pl_PL>Randerion</pl_PL>
+            <pt_BR>Randerion</pt_BR>
+            <ru_RU>Randerion</ru_RU>
+			<zh_Hans_CN>兰德里奥（Randerion）</zh_Hans_CN>
+			<zh_Hant_HK>蘭德里奧（Randerion）</zh_Hant_HK>
+		</Text>
+		
+		
+		
+		<Text id="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_THANKS">
+			<en_US>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</en_US>
+            <de_DE>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</de_DE>
+            <es_ES>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</es_ES>
+            <fr_FR>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</fr_FR>
+            <it_IT>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</it_IT>
+            <ja_JP>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</ja_JP>
+            <ko_KR>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</ko_KR>
+            <pl_PL>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</pl_PL>
+            <pt_BR>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</pt_BR>
+            <ru_RU>Special Thanks:墨尘留白Alter(China) And all players, modders and TYPE-MOON.</ru_RU>
+			<zh_Hans_CN>特别感谢：墨尘留白Alter（中国）以及所有玩家，模组制作者以及型月。</zh_Hans_CN>
+			<zh_Hant_HK>特別感謝：墨尘留白Alter（中國）以及所有玩家，模組製作者以及型月。</zh_Hant_HK>
+		</Text>
+		
+			<Text id="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_TEASER">
+			<en_US>(`・ω・´)</en_US>
+            <de_DE>(`・ω・´) </de_DE>
+            <es_ES>(`・ω・´) </es_ES>
+            <fr_FR>(`・ω・´) </fr_FR>
+            <it_IT>(`・ω・´) </it_IT>
+            <ja_JP>(`・ω・´) </ja_JP>
+            <ko_KR>(`・ω・´) </ko_KR>
+            <pl_PL>(`・ω・´) </pl_PL>
+            <pt_BR>(`・ω・´) </pt_BR>
+            <ru_RU>(`・ω・´) </ru_RU>
+			<zh_Hans_CN>(`・ω・´) </zh_Hans_CN>
+			<zh_Hant_HK>(`・ω・´) </zh_Hant_HK>
+		</Text>	
+		
+
+		<Text id="LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_DESCRIPTION">
+			<en_US>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</en_US>
+            <de_DE>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</de_DE>
+            <es_ES>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</es_ES>
+            <fr_FR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</fr_FR>
+            <it_IT>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</it_IT>
+            <ja_JP>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ja_JP>
+            <ko_KR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ko_KR>
+            <pl_PL>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</pl_PL>
+            <pt_BR>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</pt_BR>
+            <ru_RU>Support language:English,Simplified Chinese,Traditional Chinese.[NEWLINE][NEWLINE]Note: This character comes from TYPE-MOON's Fate/Apocrypha, which has nothing to do with Astolfo in history.[NEWLINE][NEWLINE]If you find any bugs or errors, please let me know in time, I will fix it, thank you!</ru_RU>
+			<zh_Hans_CN>支持语言：英语，简体中文，繁体中文。[NEWLINE][NEWLINE]提示：这个角色来自于 TYPE-MOON 旗下的 Fate/Apocrypha, 和历史上的阿斯托尔福没有任何联系。[NEWLINE][NEWLINE]如果你发现了任何Bug，请及时告知于我，我会修复它，感谢！</zh_Hans_CN>
+			<zh_Hant_HK>支持語言：英語，簡體中文，繁體中文。[NEWLINE][NEWLINE]提示：這個角色來自於 TYPE-MOON 旗下的 Fate/Apocrypha, 和歷史上的阿斯托爾福沒有任何聯系。[NEWLINE][NEWLINE]如果妳發現了任何Bug，請及時告知於我，我會修復它，感謝！</zh_Hant_HK>
+		</Text>		
+		
+		
+		
+  	</LocalizedText>
+	
+	
+	-->
+	
+</GameData>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Astolfo_Rider_ui -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 7/13/2018 10:26:23 PM -->
+<GameData>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ASTOLFO_RIDER_PRIMARY</Type>
+			<Red>0.831</Red>
+			<Green>0.541</Green>
+			<Blue>0.5</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_ASTOLFO_RIDER_SECONDARY</Type>
+			<Red>1</Red>
+			<Green>1</Green>
+			<Blue>1</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ASTOLFO_RIDER</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_ASTOLFO_RIDER_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_ASTOLFO_RIDER_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_PINK_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	
+	
+	<LoadingInfo>
+		<Row LeaderType="LEADER_ASTOLFO_RIDER" ForegroundImage="LEADER_ASTOLFO_RIDER_NEUTRAL_2" BackgroundImage="LEADER_ASTOLFO_RIDER_BACKGROUND_LOAD" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_ASTOLFO_RIDER" BackgroundImage="LEADER_ASTOLFO_RIDER_BACKGROUND"/>
+	</DiplomacyInfo>
+
+
+
+</GameData>

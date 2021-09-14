@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_NAME</Name>
+    <Guid>f60ab5a0-c921-4a25-a45f-feabc0d50277</Guid>
+    <ProjectGuid>72ea0089-54d6-4d25-816a-943e496fe4db</ProjectGuid>
+    <ModVersion>6</ModVersion>
+    <Teaser>LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_TEASER</Teaser>
+    <Description>LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_DESCRIPTION</Description>
+    <Authors>LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_AUTHOR</Authors>
+    <SpecialThanks>LOC_CIVILIZATION_ASTOLFO_RIDER_MOD_SPECIAL_THANKS</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Fate Apocrypha - Astolfo</AssemblyName>
+    <RootNamespace>Fate Apocrypha - Astolfo</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="AstolfoConfig"><File>Config/Astolfo_Rider_Config.xml</File><File>Config/Astolfo_Rider_Config_Ep1.xml</File></UpdateDatabase><UpdateText id="AstolfoConfigText"><File>Localization/Astolfo_Rider_City_People_Mod_Desc.xml</File><File>Localization/Astolfo_Rider_Config_Language.xml</File></UpdateText><UpdateIcons id="AstolfoConfigIcons"><File>Resource/Astolfo_Rider_Icons.xml</File></UpdateIcons><UpdateArt id="AstolfoConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AstolfoGameplay"><Criteria>LeaderCriteria</Criteria><File>Game/Astolfo_Rider_Leader.xml</File><File>Game/Astolfo_Rider_Civilization.xml</File><File>Resource/Astolfo_Rider_UI.xml</File></UpdateDatabase><UpdateText id="AstolfoText"><Criteria>LeaderCriteria</Criteria><File>Localization/Astolfo_Rider_City_People_Language.xml</File><File>Localization/Astolfo_Rider_Config_Language.xml</File><File>Localization/Astolfo_Rider_Game_Language.xml</File></UpdateText><UpdateIcons id="AstolfoIcons"><Criteria>LeaderCriteria</Criteria><File>Resource/Astolfo_Rider_Icons.xml</File></UpdateIcons><UpdateArt id="AstolfoArt"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateLogitechARX id="AstolfoLogitechARX"><Criteria>LeaderCriteria</Criteria></UpdateLogitechARX></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_ASTOLFO_RIDER,Players:Expansion1_Players::LEADER_ASTOLFO_RIDER,Players:Expansion2_Players::LEADER_ASTOLFO_RIDER</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <Homepage>https://steamcommunity.com/id/HaoJun0823/</Homepage>
+    <ModProperties>
+
+    </ModProperties>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Data\ARX" />
+    <Folder Include="Game" />
+    <Folder Include="Config" />
+    <Folder Include="Localization" />
+    <Folder Include="Data" />
+    <Folder Include="Resource" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Astolfo_Rider_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Astolfo_Rider_Config_Ep1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\ARX\Civ_LEADER_ASTOLFO_RIDER.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Game\Astolfo_Rider_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Game\Astolfo_Rider_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Astolfo_Rider_City_People_Language.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Astolfo_Rider_City_People_Mod_Desc.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Astolfo_Rider_Config_Language.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Astolfo_Rider_Game_Language.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Resource\Astolfo_Rider_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Resource\Astolfo_Rider_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

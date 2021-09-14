@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Astolfo_Rider_Config -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 8/31/2018 9:39:54 PM -->
+<GameData>
+
+	<Players>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+
+			<CivilizationType>CIVILIZATION_ASTOLFO_RIDER_FRANCIA</CivilizationType>
+			<LeaderType>LEADER_ASTOLFO_RIDER</LeaderType>
+
+			<!-- Config Text -->
+			<CivilizationName>LOC_CIVILIZATION_ASTOLFO_RIDER_FRANCIA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ASTOLFO_RIDER_FRANCIA</CivilizationIcon>
+
+			<!-- Config Text -->
+			<LeaderName>LOC_LEADER_ASTOLFO_RIDER_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ASTOLFO_RIDER</LeaderIcon>
+
+			<!-- Mod Text -->
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ASTOLFO_RIDER_FRANCIA</CivilizationAbilityIcon>
+
+			<!-- Config Text-->
+			<LeaderAbilityName>LOC_LEADER_ABILITY_ASTOLFO_RIDER_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_LEADER_ABILITY_ASTOLFO_RIDER_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ASTOLFO_RIDER</LeaderAbilityIcon>
+
+			<Portrait>LEADER_ASTOLFO_RIDER_NEUTRAL</Portrait>
+
+		</Row>
+	</Players>
+
+
+</GameData>

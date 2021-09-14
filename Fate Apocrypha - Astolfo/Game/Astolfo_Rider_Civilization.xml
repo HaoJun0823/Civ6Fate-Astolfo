@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Astolfo_Rider_Civilization -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 8/31/2018 8:56:29 PM -->
+<GameData>
+
+	<Types>
+
+		<Row Type="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" Kind="KIND_CIVILIZATION"/>
+
+
+		<!-- Evaporation of Sanity   理性蒸发  -->
+
+		<Row Type="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" Kind="KIND_TRAIT"/>
+
+
+	</Types>
+
+
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" Name="LOC_CIVILIZATION_ASTOLFO_RIDER_FRANCIA_NAME" Description="LOC_CIVILIZATION_ASTOLFO_RIDER_FRANCIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_ASTOLFO_RIDER_FRANCIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_EURO" />
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<!-- Game Text-->
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" LeaderType="LEADER_ASTOLFO_RIDER" CapitalName="LOC_CITY_NAME_ASTOLFO_RIDER_REAL_CAPITAL"/>
+	</CivilizationLeaders>
+
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_REAL_CAPITAL"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_1"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_2"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_3"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_4"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_5"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_6"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_7"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_8"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_9"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CityName="LOC_CITY_NAME_ASTOLFO_RIDER_FGO_10"/>
+	</CityNames>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_5" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_6" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_7" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_8" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_9" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_10" Female="0"/>
+
+		<!-- Max 10? -->
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_11" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" CitizenName="LOC_CITIZEN_ASTOLFO_RIDER_MALE_12" Female="0"/>
+
+
+	</CivilizationCitizenNames>
+
+
+
+
+
+
+	<CivilizationTraits>
+
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY"/>
+		
+		
+		
+	</CivilizationTraits>
+
+
+
+
+	<Traits>
+
+
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" NAME="LOC_LEADER_ABILITY_ASTOLFO_RIDER_NAME" Description="LOC_LEADER_ABILITY_ASTOLFO_RIDER_DESCRIPTION"/>
+		
+	</Traits>
+
+	<TraitModifiers>
+
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" ModifierId="TRAIT_ASTOLFO_RIDER_NEW_ERA_C"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" ModifierId="TRAIT_ASTOLFO_RIDER_NEW_ERA_S"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" ModifierId="TRAIT_ASTOLFO_RIDER_CITY_CULTURE"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" ModifierId="TRAIT_ASTOLFO_RIDER_CITY_SCIENCE"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" ModifierId="TRAIT_ASTOLFO_RIDER_TRADE_CULTURE"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" ModifierId="TRAIT_ASTOLFO_RIDER_TRADE_SCIENCE"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" ModifierId="TRAIT_ASTOLFO_RIDER_APPEAL"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_EVAPORATION_OF_SANITY" ModifierId="TRAIT_ASTOLFO_RIDER_ENVOYS"/>
+		
+		
+
+	</TraitModifiers>
+
+	<Modifiers>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NEW_ERA_C</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_ON_NEW_ERA</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NEW_ERA_S</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_ON_NEW_ERA</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_CITY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_CITY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_TRADE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_TRADE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_APPEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_ENVOYS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NEW_ERA_C</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NEW_ERA_C</ModifierId>
+			<Name>ApplyImmediately</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NEW_ERA_S</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NEW_ERA_S</ModifierId>
+			<Name>ApplyImmediately</Name>
+			<Value>true</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_CITY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_CITY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-15</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_CITY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_CITY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-15</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_TRADE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_TRADE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_TRADE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_TRADE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_APPEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_ENVOYS</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+
+
+
+
+
+	</ModifierArguments>
+
+
+
+	<!-- ??? -->
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_ASTOLFO_RIDER_LOCATION" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_ASTOLFO_RIDER_SIZE" SortIndex="20" />
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_ASTOLFO_RIDER_POPULATION" SortIndex="30" />
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_ASTOLFO_RIDER_CAPITAL" SortIndex="40" />
+	</CivilizationInfo>
+
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" TerrainType="TERRAIN_GRASS_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="4"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" TerrainType="TERRAIN_GRASS" Tier="5"/>
+	</StartBiasTerrains>
+
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" ResourceType="RESOURCE_SUGAR" Tier="4"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" ResourceType="RESOURCE_COCOA" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_ASTOLFO_RIDER_FRANCIA" ResourceType="RESOURCE_HORSES" Tier="6"/>
+	</StartBiasResources>
+
+
+
+
+
+</GameData>

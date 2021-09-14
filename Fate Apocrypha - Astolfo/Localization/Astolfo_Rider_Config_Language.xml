@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Astolfo_Rider_Config_Language -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 9/1/2018 4:07:22 PM -->
+<GameData>
+
+	<LocalizedText>
+
+	<Row Tag="LOC_LEADER_ASTOLFO_RIDER_NAME" Language="en_US">
+		<Text>Astolfo</Text>
+	</Row>
+	<Row Tag="LOC_LEADER_ABILITY_ASTOLFO_RIDER_NAME" Language="en_US">
+		<Text>Evaporation of Sanity</Text>
+	</Row>
+	<Row Tag="LOC_LEADER_ABILITY_ASTOLFO_RIDER_DESCRIPTION" Language="en_US">
+		<Text>Every round +8 [ICON_Envoy] point, All city's cell +4 appeal.[NEWLINE]Each era began to randomly receive 5 cultural inspirations and 5 Eureka, but all trade -1 [ICON_Culture][ICON_Science] and All city -15% [ICON_Culture][ICON_Science].</Text>
+	</Row>
+
+	<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_FRANCIA_NAME" Language="en_US">
+		<Text>Astolfo's "Francia"</Text>
+	</Row>
+
+	<Row Tag="LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_NAME" Language="en_US">
+		<Text>Lost Name's Noble Phantasm</Text>
+	</Row>
+
+	<Row Tag="LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_DESCRIPTION" Language="en_US">
+		<Text>First military,economic,diplomacy policy slot convert to wildcard policy slot.[NEWLINE]Units +3 points of movement, after the attack, can move with the remaining number of movement points.[NEWLINE]Units Attack -4 [ICON_Strength], attacked +8 [ICON_Strength].</Text>
+	</Row>
+
+
+
+	<Row Tag="LOC_LEADER_ASTOLFO_RIDER_NAME" Language="zh_Hans_CN">
+		<Text>阿斯托尔福</Text>
+	</Row>
+	<Row Tag="LOC_LEADER_ABILITY_ASTOLFO_RIDER_NAME" Language="zh_Hans_CN">
+		<Text>理性蒸发</Text>
+	</Row>
+	<Row Tag="LOC_LEADER_ABILITY_ASTOLFO_RIDER_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>每回合 +8 [ICON_Envoy]，所有城市单元格 +4 吸引力。[NEWLINE]每个时代开始都会随机得到5个政策鼓舞和5个科研尤里卡，但所有商路 -1 [ICON_Culture][ICON_Science] 并且所有城市 -15% [ICON_Culture][ICON_Science]。</Text>
+	</Row>
+
+	<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_FRANCIA_NAME" Language="zh_Hans_CN">
+		<Text>阿斯托尔福的“法兰克”</Text>
+	</Row>
+
+	<Row Tag="LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_NAME" Language="zh_Hans_CN">
+		<Text>失去名字的宝具</Text>
+	</Row>
+
+	<Row Tag="LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>第一个军事，经济，外交卡槽会转化为通用卡槽。[NEWLINE]单位 +3 点移动力，攻击后，可以利用剩余的移动力点数进行移动。[NEWLINE]单位攻击时 -4 [ICON_Strength]，被攻击时 +8 [ICON_Strength]。</Text>
+	</Row>
+
+
+
+		<Row Tag="LOC_LEADER_ASTOLFO_RIDER_NAME" Language="zh_Hant_HK">
+			<Text>阿斯托爾福</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_ASTOLFO_RIDER_NAME" Language="zh_Hant_HK">
+			<Text>理性蒸發</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ABILITY_ASTOLFO_RIDER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>每回合 +8 [ICON_Envoy]，所有城市單元格 +4 吸引力。[NEWLINE]每個時代開始都會隨機得到5個政策鼓舞和5個科研尤裏卡，但所有商路 -1 [ICON_Culture][ICON_Science] 並且所有城市 -15% [ICON_Culture][ICON_Science]。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ASTOLFO_RIDER_FRANCIA_NAME" Language="zh_Hant_HK">
+			<Text>阿斯托爾福的“法蘭克”</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_NAME" Language="zh_Hant_HK">
+			<Text>失去名字的寶具</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>第壹個軍事，經濟，外交卡槽會轉化為通用卡槽。[NEWLINE]單位 +3 點移動力，攻擊後，可以利用剩余的移動力點數進行移動。[NEWLINE]单位攻擊時 -4 [ICON_Strength]，被攻擊時 +8 [ICON_Strength]。</Text>
+		</Row>
+
+
+
+
+	</LocalizedText>
+
+
+</GameData>

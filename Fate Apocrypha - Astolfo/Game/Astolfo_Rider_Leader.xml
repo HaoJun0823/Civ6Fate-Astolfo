@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Astolfo_Rider_Leader -->
+<!-- Author: HaoJun0823 -->
+<!-- DateCreated: 8/31/2018 8:12:52 PM -->
+<GameData>
+
+	<Types>
+		<Row Type="LEADER_ASTOLFO_RIDER" Kind="KIND_LEADER"/>
+
+		<!-- Lost Name's Noble Phantasm 失去名字的宝具 -->
+		
+		<Row Type="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" Kind="KIND_TRAIT"/>
+		<!--
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Kind="KIND_ABILITY"/>
+		-->
+	</Types>
+
+	<!--
+	<TypeTags>
+
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_ASTOLFO_RIDER_UNIT" Tag="CLASS_AIRCRAFT"/>
+		
+	</TypeTags>
+	
+
+		<UnitAbilities>
+
+		<Row UnitAbilityType="ABILITY_ASTOLFO_RIDER_UNIT" Name="LOC_ABILITY_ASTOLFO_RIDER_UNIT_NAME" Description="LOC_ABILITY_ASTOLFO_RIDER_UNIT_DESCRIPTION" />
+		
+		
+	</UnitAbilities>
+
+
+	<UnitAbilityModifiers>
+
+
+		<Row>
+			<UnitAbilityType>ABILITY_ASTOLFO_RIDER_UNIT</UnitAbilityType>
+			<ModifierId>ASTOLFO_RIDER_UNIT_WEAK_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ASTOLFO_RIDER_UNIT</UnitAbilityType>
+			<ModifierId>ASTOLFO_RIDER_STRONG_WEAK_WHEN_DEFENDING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ASTOLFO_RIDER_UNIT</UnitAbilityType>
+			<ModifierId>ASTOLFO_RIDER_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ASTOLFO_RIDER_UNIT</UnitAbilityType>
+			<ModifierId>ASTOLFO_RIDER_MOVEMENT</ModifierId>
+		</Row>
+
+	</UnitAbilityModifiers>
+	-->
+
+	<Leaders>
+		<Row LeaderType="LEADER_ASTOLFO_RIDER" NAME="LOC_LEADER_ASTOLFO_RIDER_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male" />		
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ASTOLFO_RIDER" Quote="LOC_LEADER_ASTOLFO_RIDER_QUOTE"/>
+	</LeaderQuotes>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ASTOLFO_RIDER" TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM"/>
+	</LeaderTraits>
+
+	<Traits>
+
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" NAME="LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_NAME" Description="LOC_TRAIT_CIVILIZATION_ASTOLFO_RIDER_ABILITY_DESCRIPTION"/>
+		
+	</Traits>
+
+	<TraitModifiers>
+
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" ModifierId="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_1"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" ModifierId="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_2"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" ModifierId="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_3"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" ModifierId="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_4"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" ModifierId="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_M"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" ModifierId="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_E"/>
+		<Row TraitType="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM" ModifierId="TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_D"/>
+		
+		
+		
+	</TraitModifiers>
+
+	<Modifiers>
+				
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+
+		
+		<Row>
+			<ModifierId>ASTOLFO_RIDER_UNIT_WEAK_WHEN_ATTACKING</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_STRONG_WHEN_ATTACKING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ASTOLFO_RIDER_STRONG_WEAK_WHEN_DEFENDING</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_WEAK_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>ASTOLFO_RIDER_MOVE_AND_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ATTACK_AND_MOVE</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>ASTOLFO_RIDER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_M</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_REPLACE_GOVERNMENT_SLOTS</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_E</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_REPLACE_GOVERNMENT_SLOTS</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_D</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_REPLACE_GOVERNMENT_SLOTS</ModifierType>
+		</Row>
+		
+		
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_M</ModifierId>
+			<Name>ReplacedGovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_M</ModifierId>
+			<Name>AddedGovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_E</ModifierId>
+			<Name>ReplacedGovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_E</ModifierId>
+			<Name>AddedGovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_D</ModifierId>
+			<Name>ReplacedGovernmentSlotType</Name>
+			<Value>SLOT_DIPLOMATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_G_D</ModifierId>
+			<Name>AddedGovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+
+		
+		
+		
+		
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_1</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ASTOLFO_RIDER_UNIT_WEAK_WHEN_ATTACKING</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_2</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ASTOLFO_RIDER_STRONG_WEAK_WHEN_DEFENDING</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_3</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ASTOLFO_RIDER_MOVE_AND_ATTACK</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_ASTOLFO_RIDER_NOBLE_PHANTASM_UNIT_4</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ASTOLFO_RIDER_MOVEMENT</Value>
+		</Row>
+
+		
+		
+		
+		<Row>
+			<ModifierId>ASTOLFO_RIDER_UNIT_WEAK_WHEN_ATTACKING</ModifierId>
+			<Name>Amount</Name>
+			<Value>-4</Value>
+		</Row>
+		<Row>
+			<ModifierId>ASTOLFO_RIDER_STRONG_WEAK_WHEN_DEFENDING</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ASTOLFO_RIDER_MOVE_AND_ATTACK</ModifierId>
+			<Name>CanMove</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>ASTOLFO_RIDER_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+	</ModifierArguments>
+
+
+
+	<Types>
+		<Row Type="TRAIT_AGENDA_ASTOLFO_RIDER" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_ASTOLFO_RIDER" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+	</Traits>
+
+
+	<AgendaTraits>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_ASTOLFO_RIDER"/>
+
+		<!-- Extra -->
+		<!--
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_CIVILIZED"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_CULTURED"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_DEVOUT"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_FUN_LOVING"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_POPULOUS"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_STANDING_ARMY"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_TECHNOPHILE"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_INDUSTRIALIST"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_MONEY_GRUBBER"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_NUKE_LOVER"/>
+		-->
+
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_PREFER_AIRPOWER"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_PREFER_NUKES"/>
+
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_PREFER_POPULATION"/>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" TraitType="TRAIT_AGENDA_PREFER_HAPPINESS"/>
+
+	</AgendaTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_ASTOLFO_RIDER" ModifierId="TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_ASTOLFO_RIDER" ModifierId="TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>180</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ASTOLFO_RIDER_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_LEADER_ASTOLFO_RIDER_DECLARED_FRIEND</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-180</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_ASTOLFO_RIDER_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_LEADER_ASTOLFO_RIDER_DENOUNCED_FRIEND</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Agendas>
+		<Row AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER" Name="LOC_TRAIT_AGENDA_ASTOLFO_RIDER" Description="LOC_TRAIT_AGENDA_ASTOLFO_RIDER_DESCRIPTION"/>
+	</Agendas>
+
+	<ModifierStrings>
+		<Row ModifierId="TRAIT_AGENDA_ASTOLFO_RIDER_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="TRAIT_AGENDA_ASTOLFO_RIDER_DENOUNCED_FRIEND" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+
+		<Row ModifierId="ASTOLFO_RIDER_UNIT_WEAK_WHEN_ATTACKING" Context="Preview" Text="LOC_ABILITY_ASTOLFO_RIDER_UNIT_WEAK_WHEN_ATTACKING"/>
+		<Row ModifierId="ASTOLFO_RIDER_STRONG_WEAK_WHEN_DEFENDING" Context="Preview" Text="LOC_ABILITY_ASTOLFO_RIDER_STRONG_WEAK_WHEN_DEFENDING"/>
+
+
+	</ModifierStrings>
+
+	<!-- USE GAME DATA FAILD -->
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ASTOLFO_RIDER" AgendaType="TRAIT_AGENDA_ASTOLFO_RIDER"/>
+	</HistoricalAgendas>
+
+	<ExclusiveAgendas>
+
+		<Row AgendaOne="TRAIT_AGENDA_ASTOLFO_RIDER" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="TRAIT_AGENDA_ASTOLFO_RIDER" AgendaTwo="AGENDA_DEVOUT"/>
+		<Row AgendaOne="TRAIT_AGENDA_ASTOLFO_RIDER" AgendaTwo="AGENDA_INDUSTRIALIST"/>
+
+	</ExclusiveAgendas>
+
+	<AgendaPreferredLeaders>
+		<Row AgendaType="AGENDA_CITY_STATE_PROTECTOR" LeaderType="LEADER_ASTOLFO_RIDER" PercentageChance="50"/>
+		<Row AgendaType="AGENDA_DEVOUT" LeaderType="LEADER_ASTOLFO_RIDER" PercentageChance="30"/>
+		<Row AgendaType="AGENDA_INDUSTRIALIST" LeaderType="LEADER_ASTOLFO_RIDER" PercentageChance="20"/>
+	</AgendaPreferredLeaders>
+
+
+	<FavoredReligions>
+		<Row LeaderType="LEADER_ASTOLFO_RIDER" ReligionType="RELIGION_CATHOLICISM"/>
+	</FavoredReligions>
+
+
+	<AiListTypes>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" />
+		<Row ListType="LEADER_ASTOLFO_RIDER_CIVICS" />
+		<Row ListType="LEADER_ASTOLFO_RIDER_TECHS" />
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" />
+
+	</AiListTypes>
+
+	<AiLists>
+
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" LeaderType="LEADER_ASTOLFO_RIDER" System="Buildings"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_CIVICS" LeaderType="LEADER_ASTOLFO_RIDER" System="Civics"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_TECHS" LeaderType="LEADER_ASTOLFO_RIDER" System="Technologies"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" LeaderType="LEADER_ASTOLFO_RIDER" System="UnitPromotionClasses"/>
+
+	</AiLists>
+
+	<AiFavoredItems>
+
+		<Row ListType="LEADER_ASTOLFO_RIDER_CIVICS" Item="CIVIC_THEOLOGY" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_CIVICS" Item="CIVIC_SOCIAL_MEDIA" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_CIVICS" Item="CIVIC_GUILDS" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_CIVICS" Item="CIVIC_NUCLEAR_PROGRAM" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_CIVICS" Item="CIVIC_GAMES_RECREATION" Favored="true"/>
+
+		<Row ListType="LEADER_ASTOLFO_RIDER_TECHS" Item="TECH_WRITING" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_TECHS" Item="TECH_BANKING" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_TECHS" Item="TECH_HORSEBACK_RIDING" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_TECHS" Item="TECH_RADIO" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_TECHS" Item="TECH_SATELLITES" Favored="true"/>
+
+
+		<!--  罗马斗兽场 电子厂 神谕 巨石阵 救世基督像 埃菲尔铁塔 紫禁城 中世纪城墙 空中花园 圣米歇尔山 兵马俑 巨像 大灯塔 圣索菲亚大教堂  -->
+
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_COLOSSEUM" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_ELECTRONICS_FACTORY" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_ORACLE" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_STONEHENGE" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_CRISTO_REDENTOR" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_EIFFEL_TOWER" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_FORBIDDEN_CITY" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_BUILDING_CASTLE" Favored="true"/>
+
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_HANGING_GARDENS" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_MONT_ST_MICHEL" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_TERRACOTTA_ARMY" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_COLOSSUS" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_GREAT_LIGHTHOUSE" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_BIG_BEN" Favored="true"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_BUILDINGS" Item="BUILDING_HAGIA_SOPHIA" Favored="true"/>
+
+		<!-- 轻骑兵 重骑兵 近战 宗教传播 海军远程攻击 天空斗士 空中轰炸 远程攻击  -->
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" Item="PROMOTION_CLASS_LIGHT_CAVALRY" Value="3"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" Item="PROMOTION_CLASS_HEAVY_CAVALRY" Value="1"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" Item="PROMOTION_CLASS_MELEE" Value="6"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" Item="PROMOTION_CLASS_APOSTLE" Value="12"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" Item="PROMOTION_CLASS_NAVAL_RANGED" Value="2"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" Item="PROMOTION_CLASS_AIR_FIGHTER" Value="2"/>
+		<Row ListType="LEADER_ASTOLFO_RIDER_UNITS" Item="PROMOTION_CLASS_AIR_BOMBER" Value="2"/>
+
+	</AiFavoredItems>
+
+	<!-- AGENDA -->
+	<AiListTypes>
+		<Row ListType="AstolfoRiderAgendaAiListTypesPeace"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesWonder"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesSpy"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesNuke"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesNukeUse"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesArmy"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesProtect"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesBandit"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesCityState"/>
+	</AiListTypes>
+	<AILists>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesPeace" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="DiplomaticActions"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesWonder" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="PseudoYields"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesSpy" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="DiplomaticActions"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="PseudoYields"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesNuke" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="PseudoYields"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesNukeUse" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="DiplomaticActions"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesArmy" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="PseudoYields"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesProtect" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="DiplomaticActions"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesBandit" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="PseudoYields"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesCityState" AgendaType="TRAIT_AGENDA_LEADER_ASTOLFO_RIDER" System="PseudoYields"/>
+
+	</AILists>
+
+	<AiFavoredItems>
+		<Row ListType="AstolfoRiderAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="false"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_FORMAL_WAR" Favored="false"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesPeace" Item="DIPLOACTION_DECLARE_WAR_MINOR_CIV" Favored="false"/>
+
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_GENERAL" Value="100"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ADMIRAL" Value="100"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ENGINEER" Value="100"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_MERCHANT" Value="100"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_PROPHET" Value="100"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_SCIENTIST" Value="100"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_WRITER" Value="200"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_ARTIST" Value="200"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesGreat" Item="PSEUDOYIELD_GPP_MUSICIAN" Value="200"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesSpy" Item="DIPLOACTION_KEEP_PROMISE_DONT_SPY" Favored="false"/>
+		<!-- ??? -->
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesNuke" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="100"/>
+		<Row ListType="AstolfoRiderAgendaAiListTypesNukeUse" Item="DIPLOACTION_USE_NUCLEAR_WEAPON" Favored="true"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesArmy" Item="PSEUDOYIELD_STANDING_ARMY_NUMBER" Value="100"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesArmy" Item="PSEUDOYIELD_STANDING_ARMY_VALUE" Value="50"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesProtect" Item="DIPLOACTION_DECLARE_PROTECTORATE_WAR" Favored="true"/>
+		
+		<Row ListType="AstolfoRiderAgendaAiListTypesBandit" Item="PSEUDOYIELD_CLEAR_BANDIT_CAMPS" Value="100"/>
+
+		<Row ListType="AstolfoRiderAgendaAiListTypesCityState" Item="PSEUDOYIELD_INFLUENCE" Value="100"/>
+
+
+	</AiFavoredItems>
+
+
+
+</GameData>
